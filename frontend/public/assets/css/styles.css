@@ -1,0 +1,510 @@
+/*
+	Shine by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* GLOBAL STYLES */
+
+
+
+.home a,
+.home a:hover,
+.home a:active,
+.home a:focus {
+	border: 0 none;
+	outline: 0 none;
+	text-decoration: none;
+}
+
+/* TYPOGRAPHIE */
+
+
+
+
+
+/* FORM GROUPS */
+
+
+
+/* CUSTOM CLASSES */
+
+
+.home .colored-line-small-center {
+	background: #2a2c2d;
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 25%;
+	z-index: 1;
+	margin-bottom: 5px;
+}
+
+.home .colored-line-right {
+	background: #008ed6;
+	display: block;
+	float: right;
+	height: 1px;
+	width: 165px;
+	z-index: 1;
+}
+
+.home .button-leweb {
+	background: none repeat scroll 0 0 rgba(22, 182, 234, 0.5);
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 0px;
+	box-shadow: none;
+	height: 57px;
+	padding-left: 18px;
+	padding-right: 18px;
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+.home .button-leweb:hover {
+	background: #008ed6;
+}
+
+
+/* SECTIONS */
+
+.home section {
+	padding: 120px 0px;
+}
+
+/* HEADER */
+.home #about .container .hh {
+	color: rgb(113, 111, 111);
+}
+
+.home #header {
+	background: url(../images/avocat5.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	padding: 0px;
+}
+
+.home #header .container {
+	background: url(../images/body-bg1.png) repeat 0 0;
+	height: 100vh;
+	width: 100% !important;
+	padding: 0px;
+	z-index: 998;
+}
+
+.home #header .col-md-8 {
+	top: 20%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 999;
+}
+
+.home #header .logo {
+	margin-bottom: 15px;
+}
+
+.home .animation {
+	width: 100%;
+	bottom: 0;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+	text-decoration: none;
+}
+
+#header .fa-angle-down {
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+
+	-webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
+	-moz-animation: leweb_fade_move_down 2s ease-in-out infinite;
+	animation: leweb_fade_move_down 2s ease-in-out infinite;
+}
+
+/* Animated Arrow Down Header */
+
+@-webkit-keyframes leweb_fade_move_down {
+	0% {
+		-webkit-transform: translate(0, -20px);
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: translate(0, 20px);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes leweb_fade_move_down {
+	0% {
+		-moz-transform: translate(0, -20px);
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		-moz-transform: translate(0, 20px);
+		opacity: 0;
+	}
+}
+
+@keyframes leweb_fade_move_down {
+	0% {
+		transform: translate(0, -20px);
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: translate(0, 20px);
+		opacity: 0;
+	}
+}
+
+
+/* ABOUT */
+
+#about i {
+	color: #fff;
+	font-size: 75px;
+	background: rgb(206, 184, 150);
+	border-radius: 50%;
+	line-height: 175px;
+	height: 175px;
+	width: 175px;
+}
+
+/* SUBSCRIBE */
+
+#subscribe {
+	background: url(../images/avocat.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	padding: 0px;
+	min-height: 430px;
+}
+
+#subscribe .icontop {
+	position: absolute;
+	color: #fff;
+	margin: -30px auto;
+	right: 0;
+	left: 0;
+	font-size: 25px;
+	border-radius: 50%;
+	line-height: 65px;
+	height: 65px;
+	width: 65px;
+	background: rgb(206, 184, 150);
+	box-shadow: 0 0 0 1px rgb(206, 184, 150);
+}
+
+#subscribe .row {
+	padding: 100px 0px 120px 0px;
+}
+
+#subscribe h5 {
+	margin-bottom: 45px;
+}
+
+#subscribe .form-control {
+	display: inline-block;
+	border: 1px solid #fff;
+	width: 320px;
+}
+
+#subscribe .form-control::-moz-placeholder {
+	color: #fff;
+}
+
+#subscribe .button-leweb {
+	display: inline-block;
+
+}
+
+.home #subscribe #mc_form label {
+	display: block;
+	font-size: 12px !important;
+	margin-top: 10px;
+	font-weight: normal;
+	position: relative;
+	color: #fff;
+}
+
+#subscribe #mc_form .valid:before {
+	font-family: FontAwesome;
+	top: 0;
+	content: "\f058";
+	font-size: 14px;
+	margin-right: 4px;
+	color: #b8c000;
+}
+
+#subscribe #mc_form .error:before {
+	font-family: FontAwesome;
+	top: 0;
+	content: "\f071";
+	font-size: 14px;
+	margin-right: 4px;
+	color: #bb1720;
+}
+
+
+/* CONTACT */
+
+/*#contact .button-leweb {
+	border: 1px solid #ccc;
+}
+
+#success {
+	display: none;
+}
+
+#success i {
+	color: #b8c000;
+	font-size: 28px;
+	display: block;
+}
+
+/* FOOTER */
+
+#footer {
+	border-top: 1px solid #ccc;
+	padding: 25px 0px;
+}
+
+.home #footer p {
+	margin: 0px 0px -5px;
+}
+
+#footer .social {
+	float: right;
+}
+
+#footer .fa {
+	font-size: 24px;
+	color: rgba(22, 182, 234, 0.5);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#footer .fa:hover {
+	color: #008ed6;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* Extra Small devices (tablets, 446px and less) */
+@media (max-width: 456px) {
+
+	.home .temp #mc_form .form-control {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.temp .button-leweb {
+		width: 100%;
+	}
+
+	.temp #header .logo {
+		width: 200px;
+	}
+
+	.temp #header h1 {
+		display: none;
+	}
+
+}
+
+/* Small devices (tablets, 768px and less) */
+@media (max-width: 768px) {
+
+	.home body {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.home h1 {
+		font-size: 44px;
+		line-height: 58px;
+	}
+
+	.home h2 {
+		font-size: 24px;
+		line-height: 38px;
+	}
+
+	.home h3 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.home h4 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.home h5 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.home .clocktitle {
+		font-size: 11px;
+	}
+
+	.numbers {
+		font-size: 44px;
+	}
+
+	#header .col-md-8 {
+		top: 5%;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (max-width: 992px) {	
+	
+	.temp #about .middle {
+		margin-top: 65px;
+		margin-bottom: 65px;
+	}
+} */
+
+
+
+#sec .section-heading {
+	font-size: 22px;
+	line-height: 38px;
+	font-weight: 300;
+}
+
+
+#sec {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+#sec {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+
+#sec .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#sec .column {
+	width: 100%;
+	padding: 0 1em 1em 1em;
+	text-align: center;
+}
+
+#sec .card {
+	width: 100%;
+	height: 100%;
+	padding: 2em 1.5em;
+	background: linear-gradient(#ffffff 50%, #CEB896 50%);
+	background-size: 100% 200%;
+	background-position: 0 2.5%;
+	border-radius: 5px;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.home #sec h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #1f194c;
+	margin: 1em 0;
+}
+
+#sec p {
+	color: #575a7b;
+	font-size: 15px;
+	line-height: 1.6;
+	letter-spacing: 0.03em;
+}
+
+.home #sec .icon-wrapper {
+	background-color: #CEB896;
+	position: relative;
+	margin: auto;
+	font-size: 30px;
+	height: 2.5em;
+	width: 2.5em;
+	color: #ffffff;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	transition: 0.5s;
+}
+
+#sec .card:hover {
+	background-position: 0 100%;
+}
+
+#sec .card:hover .icon-wrapper {
+	background-color: #ffffff;
+	color: #CEB896;
+}
+
+#sec .card:hover h3 {
+	color: #ffffff;
+}
+
+#sec .card:hover p {
+	color: #f0f0f0;
+}
+
+@media screen and (min-width: 768px) {
+	#sec {
+		padding: 0 2em;
+	}
+
+	#sec .column {
+		flex: 0 50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#sec {
+		padding: 1em 3em;
+	}
+
+	#sec .column {
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+	}
+}
